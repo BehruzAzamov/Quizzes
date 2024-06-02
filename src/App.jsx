@@ -1,10 +1,10 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import AppLayout from "./ui/AppLayout";
+import AppLayout from "./components/AppLayout";
 import Home from "./features/home/Home";
-import { loader as homeLoader } from "./ui/Header";
+import { loader as homeLoader } from "./components/Header";
 import Quiz from "./features/quiz/Quiz";
-import Error from "./ui/Error";
-import FinishedScreen from "./ui/FinishedScreen";
+import Error from "./components/Error";
+import FinishedScreen from "./components/FinishedScreen";
 
 function App() {
   const router = createBrowserRouter([
